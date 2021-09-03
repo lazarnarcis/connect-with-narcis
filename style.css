@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #add7dc;
+}
+
+.general-div {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#profile-picture {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+#website-name {
+  margin-left: 20px;
+  vertical-align: middle;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+}
+
+#contact-card {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #217983;
+  border-radius: 10px;
+  cursor: pointer;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  color: #327880;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#contact-card:hover {
+  background-color: #64b7c0;
+  color: white;
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+}
+
+#connect-logo {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+#name {
+  margin: 0;
+  font-size: 40px;
+  color: #312e81;
+  margin-bottom: 40px;
+  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+@media (max-width: 750px) {
+  #contact-card {
+    width: 80%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
