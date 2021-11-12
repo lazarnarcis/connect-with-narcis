@@ -49,9 +49,9 @@ a {
 #contact-card:hover {
   background-color: #64b7c0;
   color: white;
-  transform: scale(0.925);
-  -webkit-transform: scale(0.925);
-  -moz-transform: scale(0.925);
+  transform: scale(0.925) rotate(-4deg);
+  -webkit-transform: scale(0.925) rotate(-4deg);
+  -moz-transform: scale(0.925) rotate(-4deg);
 }
 
 #connect-logo {
