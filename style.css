@@ -73,6 +73,51 @@ a {
   margin: 0px 150px auto;
 }
 
+#theme-switcher {
+  top: 0;
+  right: 0;
+  position: absolute;
+  padding: 10px;
+  border-bottom-left-radius: 20px;
+  background: #2d3d57;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+[data-theme="dark"] #theme-switcher {
+  background: black;
+}
+
+[data-theme="dark"] #name {
+  color: white;
+}
+
+[data-theme="dark"] #contact-card:hover {
+  background-color: #151b24;
+  -webkit-transform: scale(0.925) rotate(4deg);
+          transform: scale(0.925) rotate(4deg);
+}
+
+[data-theme="dark"] body {
+  background-color: #2f393a;
+}
+
+[data-theme="dark"] #contact-card {
+  background: #3a4149;
+  color: white;
+  border-color: white;
+}
+
+[data-theme="dark"] #profile-picture {
+  -webkit-box-shadow: 0px 0px 5px black;
+          box-shadow: 0px 0px 5px black;
+}
+
 @media (max-width: 750px) {
   #contact-card {
     width: 80%;

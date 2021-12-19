@@ -68,7 +68,39 @@ a {
         margin: 0px 150px auto;
     }
 }
-
+#theme-switcher {
+    top: 0;
+    right: 0;
+    position: absolute;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    background: rgb(45, 61, 87);
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+}
+[data-theme="dark"] #theme-switcher {
+    background: black;
+}
+[data-theme="dark"] #name {
+    color: white;
+}
+[data-theme="dark"] #contact-card:hover {
+    background-color: rgb(21, 27, 36);
+    transform: scale(0.925) rotate(4deg);
+}
+[data-theme="dark"] body {
+    background-color: rgb(47, 57, 58);
+}
+[data-theme="dark"] #contact-card {
+    background: rgb(58, 65, 73);
+    color: white;
+    border-color: white;
+}
+[data-theme="dark"] #profile-picture {
+    box-shadow: 0px 0px 5px black;
+}
 @media (max-width: 750px) {
     #contact-card {
         width: 80%;
